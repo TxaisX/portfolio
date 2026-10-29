@@ -2,6 +2,8 @@
 
 **Personal project** · Sept 2026 – present · v0.15.4 (Oct 2026) · [Installers](https://github.com/TxaisX/kolux-releases) (source is private)
 
+📄 **Full research paper:** [Kolux: Designing a Desktop Workspace for Running Parallel AI Coding Agents](kolux-paper.md) (about 4,700 words)
+
 ## The problem
 
 AI coding agents (Claude Code, Codex, Gemini CLI and others) are most useful when several run at once, each on its own task. Run them in the same folder, though, and they overwrite each other's work. Juggling a terminal per agent also makes it hard to see which one is waiting on you.
@@ -24,7 +26,7 @@ Kolux bundles no AI models or keys. It launches the tools the user already pays 
 
 ## How I built it
 
-I planned it, wrote the specs and acceptance checks, and directed AI agents to write the code, often several at a time inside Kolux itself. I tested every release on my own machine and shipped through numbered versions with installers and an auto-update feed.
+Kolux builds on an existing open-source (MIT-licensed) code base; I did not write that foundation. On top of it, I planned the product, wrote the specs and acceptance checks, and directed AI agents to write the code, often several at a time inside Kolux itself. I tested every release on my own machine and shipped through numbered versions with installers and an auto-update feed.
 
 ## What I learned
 

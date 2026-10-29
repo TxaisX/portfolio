@@ -2,6 +2,8 @@
 
 **Hobby** · Sacramento · Sept 2026 – present
 
+📄 **Full research paper:** [Buying Used PCs by the Numbers: A Deal Tracker and a Five-Report Market Study](pc-hardware-refurbishing-paper.md) (about 4,400 words)
+
 I buy used gaming PCs and parts locally, test and refurbish them, and resell them whole or as parts. Before buying anything, I treated it like any research project: learn the market, write the rules, and build the tracker.
 
 ## The tracker

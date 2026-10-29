@@ -2,6 +2,8 @@
 
 **Personal project** · 2026 · Gmail labeler built on a fine-tuned local model (source is private: it holds my mail credentials)
 
+📄 **Full research paper:** [Laya: A Local, Reversible Gmail Labeler with Confidence Gates](laya-paper.md) (about 3,200 words)
+
 ## The problem
 
 My inbox had almost 29,000 threads. Gmail's own tabs sorted some of it, but job replies, bills and orders still got buried under promotions, and nothing pointed out the few emails that needed me to act.

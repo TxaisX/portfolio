@@ -2,6 +2,8 @@
 
 **Sacramento-area wastewater district** · Data Management Technician (contract) · May 2025 – Jan 2026
 
+📄 **Full research paper:** [Replacing a Four-Hour Weekly Asset-Records Audit with a Rule-Based Excel Workbook](01-asset-reconciliation-paper.md) (about 3,200 words)
+
 | | |
 |---|---|
 | **Result** | Weekly audit from 4 hours to under 15 minutes (about 95%), about 180 staff hours a year |

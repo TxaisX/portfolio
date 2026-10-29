@@ -2,6 +2,8 @@
 
 **California statewide construction-research program** · Data Entry Intern → Senior Research Analyst · Nov 2023 – May 2025
 
+📄 **Full research paper:** [Writing Down the Judgment Calls: A Rules-First, Model-Assisted Permit Classifier with Human Review](02-permit-classifier-paper.md) (about 4,900 words)
+
 | | |
 |---|---|
 | **Result** | Coding time per report from 64.3 to about 20 minutes (about 69%); analyst throughput up about 93%; classification error from 20–25% to under 10% (project-reported) |
@@ -34,10 +36,9 @@ flowchart TD
     A[Permit report, any format] --> B[Map its headers to standard fields]
     B --> C{Keyword rules}
     C -->|excluded keyword| X[Out of scope]
-    C -->|clear match| D[Coded]
-    C -->|unclear| M[ML model on the description]
-    M -->|high confidence| D
-    M -->|low confidence| R[Highlighted REVIEW for a person]
+    C -->|in scope| M[ML model picks the category]
+    C -->|rules can't settle it| R[Highlighted REVIEW for a person]
+    M --> D[Coded]
     R --> D
     D --> O[Standardized Excel, then database upload after review]
 ```
@@ -56,11 +57,11 @@ flowchart TD
 }
 ```
 
-**2. Boolean keyword rules first.** Most permits could be decided by rules: if the description contains an excluded term, it's out of scope; if it matches a category's keywords, code it. Rules are fast, predictable, and easy to explain.
+**2. Boolean keyword rules first.** Rules decide whether a permit belongs in the report at all: if the description contains an excluded term, it's out of scope; if the in-scope keywords outweigh the excluded ones, it moves on to be coded. Rules are fast, predictable, and easy to explain.
 
-**3. A model only for what rules can't decide.** For ambiguous descriptions, a PyTorch model reads the text (as sentence embeddings) and suggests a category. It was trained on **750,000+ labelled permit records** from the program's history.
+**3. A model to pick the category.** For every in-scope permit, a PyTorch model reads the description (as sentence embeddings) and assigns one of the program's categories. It was trained on **750,000+ labelled permit records** from the program's history.
 
-**4. A person on every uncertain case.** Results the model wasn't confident about were highlighted **REVIEW** in yellow so they couldn't be missed. A reviewer checked the code against the description. Correct results moved on, and wrong ones were recoded and fed back into training. Nothing went into the database without that review.
+**4. A person on every uncertain case.** Permits the rules couldn't settle were highlighted **REVIEW** in yellow so they couldn't be missed. A reviewer checked the code against the description. Correct results moved on, and wrong ones were recoded and fed back into training. Nothing went into the database without that review.
 
 **5. How the code got written.** I worked out the logic step by step, talked it through with ChatGPT, and had it generate the code. Then I tested the output, pasted the errors back, and iterated until it held.
 

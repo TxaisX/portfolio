@@ -2,6 +2,8 @@
 
 **Independent research** · Oct 2026 · 68,341 public Reddit posts
 
+📄 **Full research paper:** [What the Construction Trades Struggle With: An Analysis of 68,341 Public Reddit Posts](construction-trades-on-reddit-paper.md) (about 4,100 words)
+
 ## Question
 
 What are people in the construction subreddits struggling with most, and which struggles draw the most discussion?

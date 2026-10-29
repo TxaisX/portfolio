@@ -36,6 +36,20 @@ Everything I've built, researched, or been recognized for, sorted by where it ca
 | [What the construction trades struggle with](research/construction-trades-on-reddit.md) | 68,341 public Reddit posts, 9 subreddits, 6 months | What do tradespeople and contractors complain about most, and which complaints draw the most discussion? |
 | [2026 used PC hardware market](hobbies/pc-hardware-refurbishing.md#the-research) | Five parallel research reports with tagged evidence | What sells, what it's worth, and what breaks? |
 
+## Full research papers
+
+Each item above also has a long-form write-up: problem, background, data, method, results, limitations and lessons, with every number traced to its source.
+
+| Paper | Short version | Words |
+|---|---|---|
+| [Replacing a Four-Hour Weekly Asset-Records Audit with a Rule-Based Excel Workbook](case-studies/01-asset-reconciliation-paper.md) | [01-asset-reconciliation](case-studies/01-asset-reconciliation.md) | about 3,200 |
+| [Writing Down the Judgment Calls: A Rules-First, Model-Assisted Permit Classifier with Human Review](case-studies/02-permit-classifier-paper.md) | [02-permit-classifier](case-studies/02-permit-classifier.md) | about 4,900 |
+| [Kolux: Designing a Desktop Workspace for Running Parallel AI Coding Agents](projects/kolux-paper.md) | [kolux](projects/kolux.md) | about 4,700 |
+| [Laya: A Local, Reversible Gmail Labeler with Confidence Gates](projects/laya-paper.md) | [laya](projects/laya.md) | about 3,200 |
+| [Vollyio: Measuring an AI Skill Grade and a Market, and Closing the Product](projects/vollyio-paper.md) | [vollyio](projects/vollyio.md) | about 4,400 |
+| [Buying Used PCs by the Numbers: A Deal Tracker and a Five-Report Market Study](hobbies/pc-hardware-refurbishing-paper.md) | [pc-hardware-refurbishing](hobbies/pc-hardware-refurbishing.md) | about 4,400 |
+| [What the Construction Trades Struggle With: An Analysis of 68,341 Public Reddit Posts](research/construction-trades-on-reddit-paper.md) | [construction-trades-on-reddit](research/construction-trades-on-reddit.md) | about 4,100 |
+
 ## Recognition
 
 [Promotions, a full-time offer, and other milestones →](accolades.md)

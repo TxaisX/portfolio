@@ -2,6 +2,8 @@
 
 **Personal project** · July – Aug 2026 · [Live site](https://vollyio.com) · [Public repo](https://github.com/TxaisX/vollyio)
 
+📄 **Full research paper:** [Vollyio: Measuring an AI Skill Grade and a Market, and Closing the Product](vollyio-paper.md) (about 4,400 words)
+
 ## What it is
 
 A volleyball skill-analysis app for web and Android. A player uploads a short clip and marks themselves, and a vision model gives a coach's read of their serve, pass, set, attack, block or dig: strengths, one priority fix, and drills.
@@ -11,7 +13,7 @@ A volleyball skill-analysis app for web and Android. A player uploads a short cl
 | | |
 |---|---|
 | Build time | 7 weeks (July 6 – Aug 27, 2026) |
-| Commits | 357 |
+| Commits | 363 |
 | Written decisions | 127, each recording what was measured, what it cost, and why |
 | Automated tests | 754 |
 | Platforms | Web and Android, with working payments and security review |
